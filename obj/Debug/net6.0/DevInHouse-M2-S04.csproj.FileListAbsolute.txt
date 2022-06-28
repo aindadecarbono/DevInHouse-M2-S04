@@ -1,0 +1,15 @@
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\bin\Debug\net6.0\DevInHouse-M2-S04.exe
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\bin\Debug\net6.0\DevInHouse-M2-S04.deps.json
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\bin\Debug\net6.0\DevInHouse-M2-S04.runtimeconfig.json
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\bin\Debug\net6.0\DevInHouse-M2-S04.dll
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\bin\Debug\net6.0\DevInHouse-M2-S04.pdb
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.csproj.AssemblyReference.cache
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.AssemblyInfoInputs.cache
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.AssemblyInfo.cs
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.csproj.CoreCompileInputs.cache
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.dll
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\refint\DevInHouse-M2-S04.dll
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.pdb
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\DevInHouse-M2-S04.genruntimeconfig.cache
+C:\Users\coelh\OneDrive\Desktop\DEVinHouse NDD\exercícios\Modulo2\S4\DevInHouse-M2-S04\obj\Debug\net6.0\ref\DevInHouse-M2-S04.dll

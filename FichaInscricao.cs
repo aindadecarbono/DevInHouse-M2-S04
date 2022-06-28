@@ -18,4 +18,15 @@ public class FichaInscricao
   public decimal ValorDesconto { get; set; }
 
   public decimal ValorMulta { get; set; }
+
+  public FichaInscricao(string nome, string curso, string escolaridade, DateTime dataNascimento, decimal valorCurso, decimal valorDesconto, decimal valorMulta)
+  {
+    Nome = nome;
+    Curso = curso;
+    Escolaridade = escolaridade;
+    DataNascimento = dataNascimento;
+    ValorCurso = valorCurso;
+    ValorDesconto = valorDesconto;
+    ValorMulta = valorMulta;
+  }
 }
