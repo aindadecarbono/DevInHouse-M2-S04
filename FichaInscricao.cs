@@ -19,29 +19,33 @@ public class FichaInscricao
 
   public decimal ValorMulta { get; set; }
 
+  public string TextoFormatado { get; set; }
+
   public FichaInscricao(string nome, string curso, string escolaridade, DateTime dataNascimento, decimal valorCurso, decimal valorDesconto, decimal valorMulta)
   {
     Nome = nome;
-    Idade = CalcularIdade();
     Curso = curso;
     Escolaridade = escolaridade;
     DataNascimento = dataNascimento;
     ValorCurso = valorCurso;
     ValorDesconto = valorDesconto;
     ValorMulta = valorMulta;
+    Idade = CalcularIdade();
 
 
     if (ValorDesconto == 0)
     {
-      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso);
-    }
-    else if (ValorDesconto > 0)
-    {
-      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto);
+      TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso);
     }
     else if (ValorDesconto > 0 && Idade < 18)
     {
-      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto, Idade);
+      TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto, Idade);
+
+    }
+    else if (ValorDesconto > 0)
+    {
+      TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto);
+
     }
   }
 
