@@ -22,11 +22,18 @@ public class FichaInscricao
   public FichaInscricao(string nome, string curso, string escolaridade, DateTime dataNascimento, decimal valorCurso, decimal valorDesconto, decimal valorMulta)
   {
     Nome = nome;
+    Idade = CalcularIdade();
     Curso = curso;
     Escolaridade = escolaridade;
     DataNascimento = dataNascimento;
     ValorCurso = valorCurso;
     ValorDesconto = valorDesconto;
     ValorMulta = valorMulta;
+  }
+
+  private int CalcularIdade()
+  {
+    DateTime dataAtual = DateTime.Now;
+    return (int)dataAtual.Year - DataNascimento.Year;
   }
 }
