@@ -29,7 +29,22 @@ public class FichaInscricao
     ValorCurso = valorCurso;
     ValorDesconto = valorDesconto;
     ValorMulta = valorMulta;
+
+
+    if (ValorDesconto == 0)
+    {
+      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso);
+    }
+    else if (ValorDesconto > 0)
+    {
+      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto);
+    }
+    else if (ValorDesconto > 0 && Idade < 18)
+    {
+      string TextoFormatado = FormatacaoTexto.Formatar(Nome, Curso, ValorCurso, ValorDesconto, Idade);
+    }
   }
+
 
   private int CalcularIdade()
   {
@@ -37,3 +52,4 @@ public class FichaInscricao
     return (int)dataAtual.Year - DataNascimento.Year;
   }
 }
+
