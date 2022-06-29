@@ -6,7 +6,7 @@ public class CobrarCurso
   private double ValorMulta { get; set; }
   private double ValorDesconto { get; set; }
 
-  private double Resultado { get; set; }
+  public double Resultado { get; set; }
 
   private void Calculo()
   {
